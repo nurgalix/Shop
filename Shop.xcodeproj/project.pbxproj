@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DC9147F82C0E2D570025F4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9147F72C0E2D570025F4E3 /* AppDelegate.swift */; };
 		DC9147FA2C0E2D570025F4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9147F92C0E2D570025F4E3 /* SceneDelegate.swift */; };
-		DC9147FC2C0E2D570025F4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9147FB2C0E2D570025F4E3 /* ViewController.swift */; };
-		DC9147FF2C0E2D570025F4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9147FD2C0E2D570025F4E3 /* Main.storyboard */; };
 		DC9148012C0E2D580025F4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9148002C0E2D580025F4E3 /* Assets.xcassets */; };
 		DC9148042C0E2D580025F4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9148022C0E2D580025F4E3 /* LaunchScreen.storyboard */; };
+		DC91480C2C0E30170025F4E3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC91480B2C0E30170025F4E3 /* TabBarController.swift */; };
+		DC9148102C0E3A900025F4E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC91480F2C0E3A900025F4E3 /* HomeViewController.swift */; };
+		DC9148122C0E3AB60025F4E3 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9148112C0E3AB60025F4E3 /* BasketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC9147F42C0E2D570025F4E3 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9147F72C0E2D570025F4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9147F92C0E2D570025F4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC9147FB2C0E2D570025F4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC9147FE2C0E2D570025F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC9148002C0E2D580025F4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9147F42C0E2D570025F4E3 /* My group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My group.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9147F72C0E2D570025F4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		DC9147F92C0E2D570025F4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		DC9148002C0E2D580025F4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		DC9148032C0E2D580025F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC9148052C0E2D580025F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9148052C0E2D580025F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		DC91480B2C0E30170025F4E3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DC91480F2C0E3A900025F4E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC9148112C0E3AB60025F4E3 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		DC9147F52C0E2D570025F4E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC9147F42C0E2D570025F4E3 /* Shop.app */,
+				DC9147F42C0E2D570025F4E3 /* My group.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +58,32 @@
 		DC9147F62C0E2D570025F4E3 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				DC9148132C0E3AD60025F4E3 /* Supporting */,
+				DC91480B2C0E30170025F4E3 /* TabBarController.swift */,
+				DC91480F2C0E3A900025F4E3 /* HomeViewController.swift */,
+				DC9148112C0E3AB60025F4E3 /* BasketViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		DC9148132C0E3AD60025F4E3 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
 				DC9147F72C0E2D570025F4E3 /* AppDelegate.swift */,
 				DC9147F92C0E2D570025F4E3 /* SceneDelegate.swift */,
-				DC9147FB2C0E2D570025F4E3 /* ViewController.swift */,
-				DC9147FD2C0E2D570025F4E3 /* Main.storyboard */,
 				DC9148002C0E2D580025F4E3 /* Assets.xcassets */,
 				DC9148022C0E2D580025F4E3 /* LaunchScreen.storyboard */,
 				DC9148052C0E2D580025F4E3 /* Info.plist */,
 			);
-			path = Shop;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC9147F32C0E2D570025F4E3 /* Shop */ = {
+		DC9147F32C0E2D570025F4E3 /* My group */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9148082C0E2D580025F4E3 /* Build configuration list for PBXNativeTarget "Shop" */;
+			buildConfigurationList = DC9148082C0E2D580025F4E3 /* Build configuration list for PBXNativeTarget "My group" */;
 			buildPhases = (
 				DC9147F02C0E2D570025F4E3 /* Sources */,
 				DC9147F12C0E2D570025F4E3 /* Frameworks */,
@@ -82,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = Shop;
+			name = "My group";
 			productName = Shop;
-			productReference = DC9147F42C0E2D570025F4E3 /* Shop.app */;
+			productReference = DC9147F42C0E2D570025F4E3 /* My group.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DC9147EF2C0E2D570025F4E3 /* Build configuration list for PBXProject "Shop" */;
+			buildConfigurationList = DC9147EF2C0E2D570025F4E3 /* Build configuration list for PBXProject "My group" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC9147F32C0E2D570025F4E3 /* Shop */,
+				DC9147F32C0E2D570025F4E3 /* My group */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +138,6 @@
 			files = (
 				DC9148042C0E2D580025F4E3 /* LaunchScreen.storyboard in Resources */,
 				DC9148012C0E2D580025F4E3 /* Assets.xcassets in Resources */,
-				DC9147FF2C0E2D570025F4E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +148,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9147FC2C0E2D570025F4E3 /* ViewController.swift in Sources */,
+				DC9148122C0E3AB60025F4E3 /* BasketViewController.swift in Sources */,
+				DC91480C2C0E30170025F4E3 /* TabBarController.swift in Sources */,
 				DC9147F82C0E2D570025F4E3 /* AppDelegate.swift in Sources */,
 				DC9147FA2C0E2D570025F4E3 /* SceneDelegate.swift in Sources */,
+				DC9148102C0E3A900025F4E3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC9147FD2C0E2D570025F4E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC9147FE2C0E2D570025F4E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC9148022C0E2D580025F4E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +300,6 @@
 				INFOPLIST_FILE = Shop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +326,6 @@
 				INFOPLIST_FILE = Shop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC9147EF2C0E2D570025F4E3 /* Build configuration list for PBXProject "Shop" */ = {
+		DC9147EF2C0E2D570025F4E3 /* Build configuration list for PBXProject "My group" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC9148062C0E2D580025F4E3 /* Debug */,
@@ -351,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9148082C0E2D580025F4E3 /* Build configuration list for PBXNativeTarget "Shop" */ = {
+		DC9148082C0E2D580025F4E3 /* Build configuration list for PBXNativeTarget "My group" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC9148092C0E2D580025F4E3 /* Debug */,
