@@ -9,11 +9,9 @@ import UIKit
 
 final class BasketViewController: UIViewController {
     
-    
-    
-    let dataManager = DataManager.shared
-    var tableView: UITableView!
-    var buyButton: UIButton!
+    private let dataManager = DataManager.shared
+    private var tableView: UITableView!
+    private var buyButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

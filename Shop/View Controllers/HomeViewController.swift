@@ -9,7 +9,6 @@ import UIKit
 
 final class HomeViewController: UIViewController {
     
-    
     private let tableView = UITableView()
     private let images = ["image1", "image2"]
     private let products: [Product] = [Product(image: "image1", title: "Курсы английского языка", description: "Наши курсы английского языка разработаны для людей любого уровня подготовки – от начинающих до продвинутых. Мы предлагаем разнообразные программы обучения, которые помогут вам развить все необходимые навыки для свободного владения английским языком.", cost: 15.7), Product(image: "image2", title: "Футболка", description: "Наша классическая футболка Unisex – идеальный выбор для тех, кто ценит стиль и комфорт. Изготовленная из высококачественного хлопка, эта футболка станет незаменимой вещью в вашем гардеробе.", cost: 10.2)]
@@ -38,8 +37,6 @@ final class HomeViewController: UIViewController {
         collectionView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: "cell")
     }
-    
-    
 }
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -74,8 +71,6 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         detailVC.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(detailVC, animated: true)
     }
-    
-    
 }
 
 

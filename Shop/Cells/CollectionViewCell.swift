@@ -8,6 +8,7 @@
 import UIKit
 
 final class CollectionViewCell: UICollectionViewCell {
+    
     let imgView: UIImageView = {
         let imageView = UIImageView()
         imageView.backgroundColor = UIColor.white
@@ -15,7 +16,6 @@ final class CollectionViewCell: UICollectionViewCell {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
-    
     
     let titleLabel: UILabel = {
         let label = UILabel()
@@ -47,15 +47,10 @@ final class CollectionViewCell: UICollectionViewCell {
     }
     
     func addViews(){
-//        backgroundColor = UIColor.black
-        
         
         addSubview(imgView)
         addSubview(titleLabel)
         addSubview(costButton)
-        
-        
-        
         
         imgView.topAnchor.constraint(equalTo: topAnchor, constant: 8).isActive = true
         imgView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 8).isActive = true

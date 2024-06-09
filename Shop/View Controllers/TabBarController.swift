@@ -19,7 +19,6 @@ final class TabBarController: UITabBarController {
         self.tabBar.unselectedItemTintColor = .black
     }
     
-    
     // MARK: - Tab Setup
     private func setupTabs() {
         
@@ -37,7 +36,5 @@ final class TabBarController: UITabBarController {
         
         self.setViewControllers([navone, navsec], animated: true)
     }
-    
-    
 }
     

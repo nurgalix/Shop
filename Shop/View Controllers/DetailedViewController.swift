@@ -17,7 +17,6 @@ final class DetailedViewController: UIViewController {
         
         view.backgroundColor = .white
         
-        
         guard let product = product else {
             imgView.image = UIImage(systemName: "basket")
             return
@@ -41,7 +40,6 @@ final class DetailedViewController: UIViewController {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
         addViews()
-        
     }
     
     var imgView: UIImageView = {
